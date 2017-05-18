@@ -46,41 +46,19 @@ window.clearInterval(t1);
 
 JQ用法
 
-setTimeout(function () {
+setTimeout(function ()
+{
 
-     that.html('<strong>60</strong>&nbsp;秒后可重发');
-                       
-      countDown();
+     代码段
                     
 }, 1000);
 
 
 用法二
 
- window.setInterval(function() {
-            var day = 0,
-                hour = 0,
-                minute = 0,
-                second = 0;//时间默认值          
-            if (intDiff > 0) {
-                day = Math.floor(intDiff / (60 * 60 * 24));  
-                hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
-                minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
-                second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
-                intDiff--;
-            }
-            if (minute <= 9)
-                minute = '0' + minute;
-            if (second <= 9)
-                second = '0' + second;
-            //$('#day_show').html(day+"天"); 
-            d = '#day_show'+k;
-            a = '#hour_show'+k;
-            b = '#minute_show'+k;
-            c = '#second_show'+k;
-            $(d).html(day+"天"); 
-            $(a).html('<s></s>' + hour + '时');
-            $(b).html('<s></s>' + minute + '分');
-            $(c).html('<s></s>' + second + '秒');
+ window.setInterval(function() 
+ {
+ 
+  代码段           
 
-        }, 1000);
+ }, 1000);
