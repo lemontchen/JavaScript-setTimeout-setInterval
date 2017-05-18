@@ -4,14 +4,10 @@ JavaScript定时设置
 1、只执行一次的定时器 
 
 <script>
-
-//定时器 异步运行
-
-function hello(){
-
-  alert("hello");
-
-}
+  //定时器 异步运行
+  function hello(){
+    alert("hello");
+  }
 
 //使用方法名字执行方法
 
